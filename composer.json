@@ -28,7 +28,7 @@
     },
     "files": [
       "app/helper/helpers.php",
-      "App/Routes/Route.php"
+      "app/routes/Route.php"
     ]
   },
   "config": {
