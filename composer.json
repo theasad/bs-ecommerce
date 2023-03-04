@@ -24,10 +24,12 @@
       "App\\Services\\": "app/services/",
       "App\\Helper\\": "app/helper/",
       "App\\Views\\": "app/views/",
-      "App\\Routes\\": "app/routes/"
+      "App\\Routes\\": "app/routes/",
+      "App\\Bootstrap\\": "app/bootstrap/"
     },
     "files": [
       "app/helper/helpers.php",
+      "app/helper/DotEnv.php",
       "app/routes/Route.php"
     ]
   },

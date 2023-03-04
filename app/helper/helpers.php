@@ -112,3 +112,11 @@ if (!function_exists('base_url')) {
         return $url . $project_path . $path;
     }
 }
+
+
+if (!function_exists('env')) {
+    function env(string $name, $default = ''): bool|array|string
+    {
+        return getenv($name, $default);
+    }
+}
