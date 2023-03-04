@@ -1,6 +1,6 @@
 <?php
 
-namespace app\routes;
+namespace App\Routes;
 defined('DIRECT_ACCESS_ALLOWED') or exit('No direct script access allowed');
 
 class Route

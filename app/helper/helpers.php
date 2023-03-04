@@ -99,7 +99,7 @@ if (!function_exists('buildCategoryTreeHTML')) {
 
 
 if (!function_exists('base_url')) {
-    function base_url($path = '')
+    function base_url($path = ''): string
     {
         // Get the protocol and hostname
         $url = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http";
