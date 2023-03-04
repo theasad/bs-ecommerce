@@ -24,11 +24,11 @@
       "App\\Services\\": "app/services/",
       "App\\Helper\\": "app/helper/",
       "App\\Views\\": "app/views/",
-      "App\\Routes\\\\": "app/routes/"
+      "App\\Routes\\": "app/routes/"
     },
     "files": [
       "app/helper/helpers.php",
-      "app/routes/Route.php"
+      "App/Routes/Route.php"
     ]
   },
   "config": {
