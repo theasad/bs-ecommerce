@@ -23,7 +23,7 @@
       "App\\Repositories\\": "app/repositories/",
       "App\\Services\\": "app/services/",
       "App\\Helper\\": "app/helper/",
-      "App\\Views\\": "app/views/"
+      "App\\Views\\": "app/views/",
       "App\\Routes\\\\": "app/routes/"
     },
     "files": [
