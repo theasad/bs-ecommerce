@@ -2,11 +2,17 @@
 
 #### Project Installation
 
+**Required PHP Version: 8.1**
+
+
 `Step 1:` Clone project
+`Step 2:` Composer Install
 
-`Step 2:` Update database configuration on [config/app.php](config/app.php)
+        composer install
 
-`Step 3:` Update database configuration on [config/app.php](config/app.php)
+`Step 2:` Update database configuration on [app/config/app.php](app/config/app.php)
+
+`Step 3:` Update database configuration on [config/app.php](app/config/app.php)
 
 `Step 4:` Rename [.htaccess.example](.htaccess.example) file to `.htaccess`
 
