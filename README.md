@@ -16,7 +16,7 @@
 
 `Step 4:` Update database configuration on [app/config/app.php](app/config/app.php)
 
-`Step 5:` Update database configuration on [config/app.php](app/config/app.php)
+`Step 5:` Update database configuration on [.env](.env) file
 
 `Step 6:` Rename [.htaccess.example](.htaccess.example) file to `.htaccess`
 
