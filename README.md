@@ -6,6 +6,7 @@
 
 
 `Step 1:` Clone project
+
 `Step 2:` Composer Install
 
         composer install
