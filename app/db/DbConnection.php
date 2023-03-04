@@ -1,10 +1,10 @@
 <?php
 
-namespace db;
+namespace App\DB;
 defined('DIRECT_ACCESS_ALLOWED') or exit('No direct script access allowed');
 
+use App\Exceptions\InvalidPDOConnection;
 use Exception;
-use exceptions\InvalidPDOConnection;
 use PDO;
 use PDOException;
 

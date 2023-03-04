@@ -1,4 +1,7 @@
 <?php
+
+use App\Helper\Config;
+
 defined('DIRECT_ACCESS_ALLOWED') or exit('No direct script access allowed');
 if (!function_exists('config')) {
     /**
@@ -6,7 +9,7 @@ if (!function_exists('config')) {
      */
     function config(string $key, mixed $default = null)
     {
-        return \helper\Config::get($key, $default);
+        return Config::get($key, $default);
     }
 }
 

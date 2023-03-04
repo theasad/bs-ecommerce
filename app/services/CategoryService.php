@@ -1,9 +1,9 @@
 <?php
 
-namespace services;
+namespace App\Services;
 defined('DIRECT_ACCESS_ALLOWED') or exit('No direct script access allowed');
 
-use repositories\CategoryRepository;
+use App\Repositories\CategoryRepository;
 
 class CategoryService
 {

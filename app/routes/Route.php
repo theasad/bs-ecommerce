@@ -1,6 +1,6 @@
 <?php
 
-namespace routes;
+namespace app\routes;
 defined('DIRECT_ACCESS_ALLOWED') or exit('No direct script access allowed');
 
 class Route
@@ -21,9 +21,9 @@ class Route
 
         // define routes
         $routes = [
-            '/' => ['controller' => 'controllers\HomeController', 'method' => 'home'],
-            '/root-category' => ['controller' => 'controllers\CategoryController', 'method' => 'rootCategory'],
-            '/category-tree' => ['controller' => 'controllers\CategoryController', 'method' => 'categoryTree'],
+            '/' => ['controller' => 'App\Controllers\HomeController', 'method' => 'home'],
+            '/root-category' => ['controller' => 'App\Controllers\CategoryController', 'method' => 'rootCategory'],
+            '/category-tree' => ['controller' => 'App\Controllers\CategoryController', 'method' => 'categoryTree'],
         ];
 
         // match the route

@@ -1,6 +1,7 @@
 <?php
 
-namespace controllers;
+namespace App\Controllers;
+
 defined('DIRECT_ACCESS_ALLOWED') or exit('No direct script access allowed');
 
 class HomeController extends BaseController

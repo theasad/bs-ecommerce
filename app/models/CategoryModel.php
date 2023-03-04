@@ -1,10 +1,11 @@
 <?php
 
-namespace models;
+namespace App\Models;
 defined('DIRECT_ACCESS_ALLOWED') or exit('No direct script access allowed');
 
-use enums\QueryEnums;
+use App\Enums\QueryEnums;
 use PDO;
+
 
 class CategoryModel extends BaseModel
 {

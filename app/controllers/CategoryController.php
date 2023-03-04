@@ -1,9 +1,9 @@
 <?php
 
-namespace controllers;
+namespace App\Controllers;
 defined('DIRECT_ACCESS_ALLOWED') or exit('No direct script access allowed');
 
-use services\CategoryService;
+use App\Services\CategoryService;
 
 class CategoryController extends BaseController
 {

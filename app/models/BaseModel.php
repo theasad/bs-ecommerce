@@ -1,13 +1,14 @@
 <?php
 
-namespace models;
+namespace App\Models;
 defined('DIRECT_ACCESS_ALLOWED') or exit('No direct script access allowed');
 
-use db\DbConnection;
+use App\DB\DbConnection;
+use PDO;
 
 class BaseModel
 {
-    protected \PDO $db;
+    protected PDO $db;
 
     public function __construct()
     {

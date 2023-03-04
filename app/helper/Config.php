@@ -1,13 +1,13 @@
 <?php
 
-namespace helper;
+namespace App\Helper;
 defined('DIRECT_ACCESS_ALLOWED') or exit('No direct script access allowed');
 
 use Exception;
 
 class Config
 {
-    const CONFIG_DIR = 'config' . DIRECTORY_SEPARATOR;
+    const CONFIG_DIR = 'app/config' . DIRECTORY_SEPARATOR;
     protected static array $config;
     protected static string $fileName;
 
@@ -46,6 +46,13 @@ class Config
         return self::$config[self::$fileName];
     }
 
+    /**
+     * @return bool
+     */
+    protected static function isConfigFileExists(): bool
+    {
+        return file_exists(self::filePath());
+    }
 
     /**
      * @return string
@@ -53,14 +60,5 @@ class Config
     protected static function filePath(): string
     {
         return self::CONFIG_DIR . self::$fileName . '.php';
-    }
-
-
-    /**
-     * @return bool
-     */
-    protected static function isConfigFileExists(): bool
-    {
-        return file_exists(self::filePath());
     }
 }

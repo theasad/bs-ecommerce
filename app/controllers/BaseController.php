@@ -1,6 +1,6 @@
 <?php
 
-namespace controllers;
+namespace App\Controllers;
 defined('DIRECT_ACCESS_ALLOWED') or exit('No direct script access allowed');
 
 class BaseController
@@ -14,7 +14,7 @@ class BaseController
     {
         ob_start();
         extract($data);
-        require_once "views/{$name}.php";
+        require_once "app/views/{$name}.php";
         return ob_get_clean();
     }
 
@@ -25,7 +25,7 @@ class BaseController
     protected function layout($content): bool|string
     {
         ob_start();
-        require_once "views/layout.php";
+        require_once "app/views/layout.php";
         return ob_get_clean();
     }
 }

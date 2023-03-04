@@ -1,9 +1,9 @@
 <?php
 
-namespace repositories;
+namespace App\Repositories;
 defined('DIRECT_ACCESS_ALLOWED') or exit('No direct script access allowed');
 
-use models\CategoryModel;
+use App\Models\CategoryModel;
 
 class CategoryRepository
 {

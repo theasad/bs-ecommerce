@@ -1,0 +1,37 @@
+{
+  "name": "asad/bs-ecommerce",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Md. Asaduzzaman",
+      "email": "asaduzzaman.cse@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "App\\Config\\": "app/config/",
+      "App\\DB\\": "app/db/",
+      "App\\Controllers\\": "app/controllers/",
+      "App\\Enums\\": "app/enums/",
+      "App\\Exceptions\\": "app/exceptions/",
+      "App\\Models\\": "app/models/",
+      "App\\Repositories\\": "app/repositories/",
+      "App\\Services\\": "app/services/",
+      "App\\Helper\\": "app/helper/",
+      "App\\Views\\": "app/views/"
+    },
+    "files": [
+      "app/helper/helpers.php",
+      "app/routes/Route.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}

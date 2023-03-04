@@ -1,6 +1,6 @@
 <?php
 
-namespace enums;
+namespace App\Enums;
 defined('DIRECT_ACCESS_ALLOWED') or exit('No direct script access allowed');
 
 enum QueryEnums
